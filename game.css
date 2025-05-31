@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #222;
+  padding: 1rem 3rem;
+  margin: 2% 2% 7% 2%;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #555;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1rem;
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #00b894;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  background-color: #019875;
+}
+
+.status {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .header {
+    font-size: .9rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

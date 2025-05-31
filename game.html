@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Guess The Number</h1>
+  </header>
+
+  <main class="container">
+    <p class="description">
+      Try to guess a number between <strong>1</strong> and <strong>5</strong>.<br>
+      You have <strong>5</strong> attempts.
+    </p>
+
+    <label for="guessInput" class="title">Enter your guess:</label>
+    <input type="number" id="guessInput" min="1" max="5" />
+    <button class="button">start game</button>
+
+    <div class="status">
+      <p>Previous Guesses: <span class="gus_num">None</span></p>
+      <p>Guesses Remaining: <span class="re_num">5</span></p>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
